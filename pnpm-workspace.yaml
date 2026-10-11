@@ -1,3 +1,5 @@
 allowBuilds:
+  esbuild: true
   sharp: false
+  unicode-animations: false
   unrs-resolver: false
