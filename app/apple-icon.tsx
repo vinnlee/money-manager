@@ -1,8 +1,6 @@
 import { ImageResponse } from "next/og";
 import Logo from "@/components/common/logo";
 
-export const runtime = "edge";
-
 export const size = {
   width: 180,
   height: 180,
@@ -21,7 +19,7 @@ export default function Icon() {
         background: "white", // Solid white background for iOS
       }}
     >
-      <Logo style={{ width: "80%", height: "80%", color: "#34d399" }} />
+      <Logo />
     </div>,
     {
       ...size,
